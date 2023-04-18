@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(44, 139, 44)
+}
+
+.rating{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Con cuadritos
+.item{
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid transparent; 
+    
+}
+*/
+/*Con cuadritos
+.item-full{
+    background-color: yellow;
+    border: 1px solid black;
+}
+*/
+
+.item{
+    background-color: rgb(0, 0, 0);
+    -webkit-mask-image: url(star.svg);
+    mask-image: url(star.svg);
+    width: 50px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.item-full{
+    background-color: yellow;
+}
